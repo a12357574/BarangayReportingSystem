@@ -1,11 +1,1 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# BarangayReportingSystem
-=======
-# Crime-Management-Online-Portal-in-Django-Jquery-and-Bootstrap
-An online complaint registration system for the crime related incidents that happened with you. 
->>>>>>> 9af4f53 (Initial commit)
-=======
-# CRS
-Crime_Reporting_System
->>>>>>> 57ad379 (Initial commit)
+Hello, to use and run our system first you must install, pip, after installing pip proceed to install other necessary modules to use our system, just by simply installing it using this key-word "pip install requirements.txt"
