@@ -28,7 +28,7 @@
 {% extends 'base.html' %}
 
 {% block header %}
-    <title>Crime Dashboard</title>
+    <title>Incident Dashboard</title>
     {% load static %}
     <link rel="stylesheet" href="{% static 'css/register.css' %}">
 {% endblock %}
@@ -92,7 +92,7 @@
           box.hide();
           $.ajax({
 
-            url: '{% url 'complaints:my_complaints' %}',
+            url: "{% url 'complaints:my_complaints' %}",
             type: 'GET',
             cache: false,
             success: function(data){
